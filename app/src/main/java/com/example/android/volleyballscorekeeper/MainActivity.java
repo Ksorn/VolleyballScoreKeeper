@@ -63,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
         setResults();
     }
 
+    /*
+    * Display results
+    * */
     private void setResults() {
 
         if (!finishedMatch) {
@@ -147,15 +150,18 @@ public class MainActivity extends AppCompatActivity {
                         pointsBetaView = (TextView) findViewById(R.id.beta_set_five);
                     }
 
+                    pointsAlfaView = (TextView) findViewById(R.id.alfa_score);
+                    pointsBetaView = (TextView) findViewById(R.id.beta_score);
+
                     if (leadingTeam.compareTo("alfa") == 0) {
                         pointsAlfaView.setText(String.valueOf(1));
                         alfaSets++;
-                        pointsAlfaView = (TextView) findViewById(R.id.alfa_score);
+
                         pointsAlfaView.setText(String.valueOf(alfaSets));
                     } else {
                         pointsBetaView.setText(String.valueOf(1));
                         betaSets++;
-                        pointsBetaView = (TextView) findViewById(R.id.beta_score);
+
                         pointsBetaView.setText(String.valueOf(betaSets));
                     }
 
@@ -173,15 +179,13 @@ public class MainActivity extends AppCompatActivity {
                         finishedMatch = true;
                         setView.setText(String.valueOf("Finished match"));
 
-                        TextView alfaScoreColor = (TextView) findViewById(R.id.alfa_score);
-                        TextView betaScoreColor = (TextView) findViewById(R.id.beta_score);
                         if (alfaSets == 3) {
 
-                            alfaScoreColor.setTextColor(Color.parseColor("#4CAF50"));
-                            betaScoreColor.setTextColor(Color.parseColor("#F44336"));
+                            pointsAlfaView.setTextColor(Color.parseColor("#4CAF50"));
+                            pointsBetaView.setTextColor(Color.parseColor("#F44336"));
                         } else {
-                            alfaScoreColor.setTextColor(Color.parseColor("#F44336"));
-                            betaScoreColor.setTextColor(Color.parseColor("#4CAF50"));
+                            pointsAlfaView.setTextColor(Color.parseColor("#F44336"));
+                            pointsBetaView.setTextColor(Color.parseColor("#4CAF50"));
                         }
 
                     }
@@ -238,6 +242,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /*
+    * Resets volleyball match
+    * */
     public void resetMatch(View view) {
 
         TextView resetView = (TextView) findViewById(R.id.alfa_score_one);
