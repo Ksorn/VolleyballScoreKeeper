@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TeamNameStyle">
+        <!-- Customize your team name style here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlueThree</item>
+        <item name="android:textSize">@dimen/text_size_one</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TeamScoreStyle">
+        <!-- Customize your team score style here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_two</item>
+        <item name="android:padding">@dimen/padding_one</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="TextSetStyle">
+        <!-- Customize your text set style here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:padding">@dimen/padding_two</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SetNumberStyle">
+        <!-- Customize your text set style here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HorizontalLineStyle">
+        <!-- Customize your horizontal line style here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_width_one</item>
+        <item name="android:background">@color/colorBlue</item>
+    </style>
+
+    <style name="VerticalLineStyle">
+        <!-- Customize your vertical line style here. -->
+        <item name="android:layout_width">@dimen/line_height_one</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorBlue</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <!-- Customize your button style style here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:background">@color/colorBlueTwo</item>
+        <item name="android:textSize">@dimen/text_size_four</item>
+    </style>
+
+    <style name="PointsStyle">
+        <!-- Customize your points style style here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+
+</resources>

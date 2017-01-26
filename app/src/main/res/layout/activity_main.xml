@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.volleyballscorekeeper.MainActivity">
+
+    <!--Vertical LinearLayout
+    -->
+    <LinearLayout
+        android:id="@+id/verticalLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--Horizontal LinearLayout #1
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Linear layout for Team Alfa-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--Text Team Alfa-->
+                <TextView
+                    style="@style/TeamNameStyle"
+                    android:text="@string/team_alfa" />
+
+                <!--Match score for Team Alfa-->
+                <TextView
+                    android:id="@+id/alfa_score"
+                    style="@style/TeamScoreStyle" />
+
+                <!--Line horizontal left #1-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #1 for Team Alfa-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #1 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_score_one"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_1_0" />
+
+                    <!--Line vertical left #1-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #1 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_set_one"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal left #2-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #2 for Team Alfa-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #2 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_score_two"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_2_0" />
+
+                    <!--Line vertical left #2-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #2 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_set_two"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal left #3-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #3 for Team Alfa-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #3 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_score_three"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_3_0" />
+
+                    <!--Line vertical left #3-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #3 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_set_three"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal left #4-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #4 for Team Alfa-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #4 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_score_four"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_4_0" />
+
+                    <!--Line vertical left #4-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #4 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_set_four"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal left #5-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #5 for Team Alfa-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #5 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_score_five"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_5_0" />
+
+                    <!--Line vertical left #5-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #5 for Team Alfa-->
+                    <TextView
+                        android:id="@+id/alfa_set_five"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal left #6-->
+                <View style="@style/HorizontalLineStyle" />
+
+
+            </LinearLayout>
+
+            <!--Line vertical mid #1-->
+            <View style="@style/VerticalLineStyle" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--Text Team Beta-->
+                <TextView
+                    style="@style/TeamNameStyle"
+                    android:text="@string/team_beta" />
+
+                <!--Match score for Team Beta-->
+                <TextView
+                    android:id="@+id/beta_score"
+                    style="@style/TeamScoreStyle" />
+
+                <!--Line horizontal right #1-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #1 for Team Beta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #1 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_score_one"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_1_0" />
+
+                    <!--Line vertical right #1-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #1 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_set_one"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal right #2-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #2 for Team Beta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #2 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_score_two"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_2_0" />
+
+                    <!--Line vertical right #2-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #2 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_set_two"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal right #3-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #3 for Team Beta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #3 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_score_three"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_3_0" />
+
+                    <!--Line vertical right #3-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #3 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_set_three"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal right #4-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #4 for Team Beta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #4 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_score_four"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_4_0" />
+
+                    <!--Line vertical right #4-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #4 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_set_four"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal right #5-->
+                <View style="@style/HorizontalLineStyle" />
+
+                <!--Set #5 for Team Beta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Points for set #5 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_score_five"
+                        style="@style/TextSetStyle"
+                        android:text="@string/text_set_5_0" />
+
+                    <!--Line vertical right #5-->
+                    <View style="@style/VerticalLineStyle" />
+
+                    <!--Set score #5 for Team Beta-->
+                    <TextView
+                        android:id="@+id/beta_set_five"
+                        style="@style/SetNumberStyle" />
+
+                </LinearLayout>
+
+                <!--Line horizontal right #6-->
+                <View style="@style/HorizontalLineStyle" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--Horizontal LinearLayout #2
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_three"
+            android:paddingLeft="@dimen/padding_four"
+            android:paddingRight="@dimen/padding_four"
+            android:paddingTop="@dimen/padding_four">
+
+            <!--Button minus #1-->
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="subtractPointTeamA"
+                android:text="-" />
+
+            <!--Current set points for Team Alfa-->
+            <TextView
+                android:id="@+id/points_team_alfa"
+                style="@style/PointsStyle" />
+
+            <!--Button plus #1-->
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="addPointA"
+                android:text="+" />
+
+            <!--Line vertical mid #3-->
+            <View
+                android:layout_width="@dimen/line_width_two"
+                android:layout_height="match_parent" />
+
+            <!--Button minus #2-->
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="subtractPointTeamB"
+                android:text="-" />
+
+            <!--Current set points for Team Beta-->
+            <TextView
+                android:id="@+id/points_team_beta"
+                style="@style/PointsStyle" />
+
+            <!--Button plus #2-->
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="addPointB"
+                android:text="+" />
+
+        </LinearLayout>
+
+
+        <!--Current set-->
+        <TextView
+            android:id="@+id/current_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Set 1"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/text_size_three" />
+
+        <!--Button reset match-->
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_reset"
+            android:fontFamily="casual"
+            android:onClick="resetMatch"
+            android:text="@string/button_reset"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Volleyball Score Keeper</string>
+    <string name="team_alfa">Team Alfa</string>
+    <string name="team_beta">Team Beta</string>
+    <string name="text_set_1_0">Set 1: 0</string>
+    <string name="text_set_2_0">Set 2: 0</string>
+    <string name="text_set_3_0">Set 3: 0</string>
+    <string name="text_set_4_0">Set 4: 0</string>
+    <string name="text_set_5_0">Set 5: 0</string>
+    <string name="text_set_zero">0</string>
+    <string name="button_reset">RESET MATCH</string>
+</resources>
