@@ -150,18 +150,18 @@ public class MainActivity extends AppCompatActivity {
                         pointsBetaView = (TextView) findViewById(R.id.beta_set_five);
                     }
 
-                    pointsAlfaView = (TextView) findViewById(R.id.alfa_score);
-                    pointsBetaView = (TextView) findViewById(R.id.beta_score);
 
                     if (leadingTeam.compareTo("alfa") == 0) {
                         pointsAlfaView.setText(String.valueOf(1));
                         alfaSets++;
 
+                        pointsAlfaView = (TextView) findViewById(R.id.alfa_score);
                         pointsAlfaView.setText(String.valueOf(alfaSets));
                     } else {
                         pointsBetaView.setText(String.valueOf(1));
                         betaSets++;
 
+                        pointsBetaView = (TextView) findViewById(R.id.beta_score);
                         pointsBetaView.setText(String.valueOf(betaSets));
                     }
 
@@ -178,6 +178,9 @@ public class MainActivity extends AppCompatActivity {
                     if (alfaSets == 3 || betaSets == 3) {
                         finishedMatch = true;
                         setView.setText(String.valueOf("Finished match"));
+
+                        pointsAlfaView = (TextView) findViewById(R.id.alfa_score);
+                        pointsBetaView = (TextView) findViewById(R.id.beta_score);
 
                         if (alfaSets == 3) {
 

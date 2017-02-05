@@ -38,7 +38,7 @@
                     style="@style/TeamNameStyle"
                     android:text="@string/team_alfa" />
 
-                <!--Match score for Team Alfa-->
+                <!--Match score for Team Alfa-->d
                 <TextView
                     android:id="@+id/alfa_score"
                     style="@style/TeamScoreStyle" />
